@@ -1,0 +1,13 @@
+{
+  "name": "code-travel-adventures",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Code-Travel-Adventures/code-travel-adventures.github.io",
+  "description": "blog about travel stuff",
+  "ignore": [
+    "**/.*",
+    "assets/"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}
