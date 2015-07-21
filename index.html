@@ -5,12 +5,19 @@ layout: default
 {% for post in site.posts %}
     
 <div class="row-fluid">
-    <div class="span12">
-        <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="author">by {{ post.author }} </span>
-        <span class="post-meta">on {{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="span12 summarized-post">
+        
+        <div class="post-link-wrapper">
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+        
+        <span class="excerpt">{{ post.excerpt }} </span>
+        
+        <div class="categories">
+            {% for category in post.categories %}
+                <span>{{ category }}</span>
+            {% endfor %}
+        </div>
     </div>
 </div>
 {% endfor %}
