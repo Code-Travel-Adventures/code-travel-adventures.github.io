@@ -1,26 +1,19 @@
 ---
 layout: post
-title:  "Japan Chicken Burgers"
-date:   2015-05-18 01:14:43
-categories: jekyll update
-author: Thea
+title: Etiam eu placerat 
+excerpt: scelerisque ornare
+date: 2015-07-10
+categories:
+- Japan
+tags:
+- couple trip
+- food trip
+- restaurant
+permalink: /Etiameuplacerat
+author: James
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis molestie lacus sit amet orci tincidunt, vel sodales mi laoreet. Duis at vestibulum magna. Etiam dui magna, placerat a ornare vel, consequat at dui. Aliquam erat volutpat. Vivamus efficitur massa quis porttitor pharetra. Etiam eu placerat risus. Nunc vel ipsum auctor, consequat tellus et, malesuada diam. Proin sollicitudin felis justo, quis congue est imperdiet vitae. Vestibulum consequat lacinia urna eu finibus. Maecenas id venenatis mauris.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Vestibulum malesuada scelerisque ornare. Vestibulum sem metus, ultrices in odio eu, volutpat euismod ligula. Pellentesque facilisis quam sit amet faucibus malesuada. Cras non mollis nisl, ac bibendum dui. Quisque nisl nulla, scelerisque ac arcu non, malesuada eleifend enim. Phasellus pellentesque purus ipsum, vel auctor enim vestibulum in. Nunc eget lectus vitae augue mattis maximus. Cras ut ante interdum, egestas velit in, commodo metus. Ut ultricies mi eget eros dignissim eleifend sed ut quam.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Pellentesque et tempus augue. Cras aliquet mauris in bibendum sollicitudin. Praesent quis laoreet enim. Vivamus accumsan sit amet turpis quis commodo. Integer vitae sollicitudin mauris. In accumsan augue diam, in semper ex bibendum eu. Morbi non dolor facilisis, euismod orci eu, tempor massa. In a sapien eget mi commodo finibus sed eu diam. Aenean augue tortor, ultricies a dignissim sit amet, malesuada non turpis. Sed auctor lacus non lectus malesuada, eu pulvinar magna gravida. Suspendisse potenti. Vivamus lorem lacus, convallis eu ultricies sit amet, blandit in nisi. Praesent ullamcorper tortor enim, sed aliquam ante tincidunt sit amet. Duis nec ultricies enim, sed efficitur magna. Aliquam turpis urna, tincidunt nec urna ut, posuere fermentum dolor.
