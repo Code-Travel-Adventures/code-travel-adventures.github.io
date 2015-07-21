@@ -31,7 +31,7 @@ require 'rubygems'
         system "git push origin master --force"
         system "git checkout gh-pages"
         system "echo publish...DONE!"
-        system "echo Checkout http://code-travel-adventures.com/ to see if your changes have been reflected! :)"
+        system "echo Checkout http://code-travel-adventures.com/ to see if your changes have been reflected!"
       end
     end
 
