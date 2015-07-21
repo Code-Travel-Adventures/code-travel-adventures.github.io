@@ -9,6 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://code-travel-adventures.com" # the base hostname & protocol for your site
 twitter_username: codeTravelAdventures
 facebook_username: codeTravelAdventures
+instagram_username: codeTravelAdventures
 
 # Build settings
 markdown: kramdown

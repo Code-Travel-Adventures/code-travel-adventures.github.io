@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Code Travel Adventures</a>
+          <a class="navbar-brand" href="/">Code Travel Adventures</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
@@ -21,6 +21,13 @@
     </nav>
     
     <ul class="nav nav-pills social-media">
+        {% if site.instagram_username %}
+          <li>
+            <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
+                {% icon fa fa-instagram %}
+            </a>
+          </li>
+        {% endif %}
         
         {% if site.facebook_username %}
           <li>
