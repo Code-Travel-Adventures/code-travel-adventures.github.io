@@ -5,17 +5,18 @@ layout: default
 {% for post in site.posts %}
     
 <div class="row-fluid">
-    <div class="span12 summarized-post">
+    <div class="height-300">
         
-        <div class="post-link-wrapper">
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <div class="font-light extra-large-font">
+                <a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </div>
         
-        <span class="excerpt">{{ post.excerpt }} </span>
+        <span class="font-light medium-font">{{ post.excerpt }} </span>
         
-        <div class="categories">
+        <div>
             {% for category in post.categories %}
-                <span>{{ category }}</span>
+                
+            <span class="label label-primary">{{ category }}</span>
             {% endfor %}
         </div>
     </div>
