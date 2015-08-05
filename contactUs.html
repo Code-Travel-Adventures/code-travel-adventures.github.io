@@ -2,15 +2,23 @@
 layout: page
 ---
 
-<form action="//formspree.io/{{ site.email }}" method="POST">
-    <div class="form-group">
-        <input type="text" class="form-control" name="name" placeholder="Name">
+    <div class="width-50 center">
+    
+        <div class="font-light big-font m-b-15">
+                We'd like to hear from you!
+        </div>
+
+        <form class="font-light" action="//formspree.io/{{ site.email }}" method="POST">
+            <div class="form-group">
+                <input type="text" class="form-control" name="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" name="_replyto" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Send">
+        </form>
+    
     </div>
-    <div class="form-group">
-        <input type="email" class="form-control" name="_replyto" placeholder="Email">
-    </div>
-    <div class="form-group">
-      <textarea class="form-control" rows="5" name="message" placeholder="Message"></textarea>
-    </div>
-    <input type="submit" class="btn btn-primary" value="Send">
-</form>

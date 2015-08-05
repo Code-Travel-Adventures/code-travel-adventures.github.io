@@ -1,6 +1,6 @@
-<header class="site-header">
+<header class="width-full bg-yellow" style="margin-bottom: 15px;" >
     
-    <nav class="navbar navbar-inverse b-r-0" role="navigation">
+    <nav class="navbar navbar-inverse b-r-0 m-b-0" role="navigation">
         <div class="container-fluid width-70">
             <div class="navbar-header " style="height: 74px; width: 500px;">
                 <div class="p-t-17">
@@ -32,12 +32,13 @@
         </div><!-- /.container-fluid -->
     </nav>
     
-    <ul class="nav nav-pills width-70">
+    <div class="width-70 center">
+        <ul class="nav width-70" >
         {% if site.instagram_username %}
           
         <li>
-            <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
-                {% icon fa-instagram fa-2x %}
+            <a class="color-black" href="https://instagram.com/{{ site.instagram_username }}" target="_blank">
+                {% icon fa-instagram fa %}
             </a>
         </li>
         {% endif %}
@@ -45,25 +46,27 @@
         {% if site.facebook_username %}
           
         <li>
-            <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank">
-                {% icon fa-facebook-square fa-2x %}
+            <a  class="color-black" href="https://facebook.com/{{ site.facebook_username }}" target="_blank">
+                {% icon fa-facebook-square fa %}
             </a>
         </li>
         {% endif %}
         {% if site.twitter_username %}
           
         <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
-                {% icon fa-twitter-square fa-2x %}
+            <a class="color-black" href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+                {% icon fa-twitter-square fa %}
             </a>
         </li>
         {% endif %}
         
           
         <li>
-            <a href="/contactUs.html">
-                {% icon fa-envelope-o fa-2x %}
+            <a class="color-black" href="/contactUs.html">
+                {% icon fa-envelope-o fa %}
             </a>
         </li>
     </ul>
+    </div>
+    
 </header>

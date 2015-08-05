@@ -4,9 +4,38 @@
 
 @import "variables";
 
+.bg-yellow {
+    background: $yellow;
+}
+
+.bg-black {
+    background: $black;
+}
+
+.color-white {
+    color: $white;
+}
+
+.color-black {
+    color: $black;
+}
+
 .width-70 {
     width: 70%;
 }
+
+.width-50 {
+    width: 50%;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.center {
+    margin: 0px auto;
+}
+
 
 ul.width-70 {
     white-space: nowrap;
@@ -32,6 +61,14 @@ ul.width-70 li {
 //margin related stuff.
 .m-t-30 {
     margin-top: 30px;   
+}
+
+.m-b-0 {
+    margin-bottom: 0px;
+}
+
+.m-b-15 {
+    margin-bottom: 15px;
 }
 
 .p-t-17 {
